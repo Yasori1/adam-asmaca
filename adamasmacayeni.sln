@@ -1,25 +1,340 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.7.34202.233
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "adamasmacayeni", "adamasmacayeni\adamasmacayeni.csproj", "{88FA7627-1C54-4AFF-B253-57CCA5971B4A}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{88FA7627-1C54-4AFF-B253-57CCA5971B4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{88FA7627-1C54-4AFF-B253-57CCA5971B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{88FA7627-1C54-4AFF-B253-57CCA5971B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{88FA7627-1C54-4AFF-B253-57CCA5971B4A}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {7EDFFF7D-78B4-4C34-8BAD-271F3553EA24}
-	EndGlobalSection
-EndGlobal
+class Program
+{
+    public struct KeywordData
+    {
+        public string Type;
+        public string Name;
+        public string Description;
+    }
+
+    public static ICollection<KeywordData> Keywords = new List<KeywordData>()
+    {
+        new KeywordData()
+        {
+            Type = "Oyun",
+            Name = "Counter Strike",
+            Description = "Bomba kurma,Çözme"
+        },
+        new KeywordData()
+        {
+            Type = "Oyun",
+            Name = "Forza Horizon",
+            Description = "Araba Yarış"
+        },
+         new KeywordData()
+        {
+            Type = "Oyun",
+            Name = "The Witcher 3",
+            Description = "Enis Kirazoğlu'nun övüp biteremediği oyun"
+
+        },
+         new KeywordData()
+         {
+             Type = "Oyun",
+             Name = "Valorant",
+             Description = "cs:go çakması :D",
+
+         },
+         new KeywordData()
+         {
+             Type = "Oyun",
+             Name = "Minecraft",
+             Description = "Açık dünya Block Koyma Kırma"
+
+         },
+         new KeywordData()
+         {
+             Type = "Oyun",
+             Name = "Tetris",
+             Description = "Eski oyunlardan Block koyma",
+         },
+         new KeywordData()
+         {
+             Type = "Oyun",
+             Name = "subway surfers",
+             Description = "Tren,Kaçma,Bekçi,Altın",
+
+         },
+         new KeywordData()
+         {
+             Type = "Oyun",
+             Name = "Temple Run 2",
+             Description = "Altın,Kaçmak,Canavar",
+         },
+         new KeywordData()
+         {
+             Type = "Oyun",
+             Name = "League of legends",
+             Description = "Toksik kitlesi vardır :D",
+
+         },
+         new KeywordData()
+         {
+             Type = "Oyun",
+             Name = "Fortnite",
+             Description = "Mimar sinan"
+         },
+         new KeywordData()
+         {
+             Type = "Film",
+             Name = "Hitler",
+             Description = "soykırım",
+         },
+         new KeywordData()
+         {
+             Type = "Film",
+             Name = "",
+             Description = "",
+         },
+         new KeywordData()
+         {
+             Type = "Film",
+             Name = "",
+             Description = "",
+         },
+         new KeywordData()
+         {
+             Type = "Film",
+             Name = "",
+             Description = "",
+         },
+         new KeywordData()
+         {
+             Type = "Film", 
+             Name = "", 
+             Description = ""
+         },
+         new KeywordData()
+         {
+             Type = "Film",
+             Name = "",
+            Description = "",
+         },
+         new KeywordData()
+         {
+             Type = "Film",
+             Name = "",
+             Description = "",
+         },
+         new KeywordData()
+         {
+             Type = "",
+             Name = "",
+             Description = "",
+         },
+         new KeywordData()
+         {
+             Type = "Film",
+             Name = "",
+             Description = "",
+         },
+         new KeywordData()
+         {
+             Type = "Film",
+             Name = "",
+             Description = "",
+         },
+         new KeywordData()
+         {
+             Type = "",
+             Name = "",
+             Description = "",
+         },
+         new KeywordData()
+         {
+             Type = "Film",
+             Name = "",
+             Description = "",
+         },
+         new KeywordData()
+         {
+             Type = "Film",
+             Name = "",
+             Description = "",
+         },
+         new KeywordData()
+         {
+             Type = "Film",
+             Name = "", 
+             Description = "",
+         },
+         new KeywordData()
+         {
+             Type = "Film",
+             Name = "",
+             Description = ""
+         },
+         new KeywordData()
+         {
+             Type = "Film",
+             Name = "",
+             Description = "",
+         },
+         new KeywordData()
+         {
+             Type = "Müzik",
+             Name = "",
+             Description = "",
+         },
+         new KeywordData()
+         {
+             Type = "Müzik",
+             Name = "",
+             Description = ""
+         },
+         new KeywordData()
+         {
+             Type = "Müzik",
+             Name = "",
+             Description = ""
+         },
+         new KeywordData()
+         {
+             Type = "Müzik",
+             Name = "",
+             Description = "",
+         },
+         new KeywordData()
+         {
+             Type = "Müzik",
+             Name = "",
+             Description = ""
+         },
+         new KeywordData()
+         {
+             Type = "Müzik",
+             Name  = "",
+             Description = ""
+         },
+         new KeywordData()
+         {
+             Type = "Müzik",
+             Name = "",
+             Description = ""
+         },
+         new KeywordData()
+         {
+             Type = "Müzik",
+             Name = "",
+             Description = ""
+         },
+         new KeywordData()
+         {
+             Type = "Müzik",
+             Name = "",
+             Description = ""
+         },
+         new KeywordData()
+         {
+             Type = "Müzik",
+             Name = "",
+             Description = ""
+         },
+         new KeywordData()
+         {
+             Type = "Müzik",
+             Name = "",
+             Description = ""
+         },
+         new KeywordData()
+         {
+             Type = "Müzik",
+             Name = "",
+             Description = ""
+         },
+         new KeywordData()
+         {
+             Type = "Müzik",
+             Name = "",
+             Description = ""
+         },
+
+
+
+    };
+
+    static KeywordData GetWordData(string type)
+    {
+        var GrouppedKeywords = Keywords.Where(x => x.Type == type).ToList();
+        return GrouppedKeywords.OrderBy(x => Guid.NewGuid()).FirstOrDefault();
+    }
+
+    static void Main(string[] args)
+    {
+        var TahminEdilenHarfler = new List<char>();
+        var KarakterHakki = 10;
+        var TumKategoriler = Keywords.Select(x => x.Type).Distinct().ToList();
+        var Kategori = "";
+        var Puan = 0;
+
+        var komut = "";
+        while (komut != "exit")
+        {
+            Console.Write("Komut Girin (oyna, exit): ");
+            komut = Console.ReadLine();
+
+            switch (komut)
+            {
+                case "oyna":
+                    while (!TumKategoriler.Contains(Kategori))
+                    {
+                        Console.Write($"Kategori Seçin ({string.Join(',', TumKategoriler)}): ");
+                        Kategori = Console.ReadLine() ?? "Oyun";
+                    }
+
+                    var kelime = GetWordData(Kategori);
+                    Console.WriteLine($"Oyunun ipucu: {kelime.Description}");
+                    Console.WriteLine(string.Concat(kelime.Name.Select(character => character != ' ' ? '_' : ' ').ToArray()));
+
+                    while (KarakterHakki > 0)
+                    {
+                        Console.Clear();
+                        Console.WriteLine($"Oyunun ipucu: {kelime.Description}");
+                        Console.WriteLine(string.Concat(kelime.Name.Select(character =>
+                            character == ' ' ? ' ' :
+                            (TahminEdilenHarfler.Contains(char.ToUpper(character)) ? character : '_')
+                        ).ToArray()));
+                        Console.WriteLine($"Seçtiğiniz Harfler ({string.Join(',', TahminEdilenHarfler)}), Kalan Hakkınız: {KarakterHakki}");
+                        Console.Write("Harf Seçin: ");
+                        var Karakter = Console.ReadKey().KeyChar;
+
+                        if (kelime.Name.Contains(char.ToUpper(Karakter)))
+                        {
+                            Console.WriteLine("\nHarf bulundu!");
+                        }
+                        else
+                        {
+                            if (!TahminEdilenHarfler.Contains(char.ToUpper(Karakter)))
+                            {
+                                KarakterHakki--;
+                            }
+                        }
+
+                        TahminEdilenHarfler.Add(char.ToUpper(Karakter));
+                        Console.Write("\n");
+
+                        var MaskelenmisKelime =
+                            kelime.Name.Select(character =>
+                                character == ' ' ? ' ' :
+                                (TahminEdilenHarfler.Contains(char.ToUpper(character)) ? character : '_')
+                            ).ToArray();
+
+                        if (!MaskelenmisKelime.Any(character => character == '_'))
+                        {
+                            Console.Clear();
+                            Console.WriteLine($"Kazandınız! Kelime: {kelime.Name}, Puanınız: {Puan + 10}");
+
+                            TahminEdilenHarfler.Clear();
+                            Puan += 10;
+                            break;
+                        }
+                    }
+
+                    KarakterHakki = 10; // Oyun bittiğinde hakkı sıfırla
+                    break;
+            }
+        }
+
+        Console.ReadKey();
+    }
+}
